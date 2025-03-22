@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salaar | Aslam Sayyed</title>
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:"Poppins",sans-serif;
+            box-sizing: border-box;
+        }
+        :root {
+            --bg-color: #080808;
+            --second-bg-color: #001005;
+            --text-color: white;
+            --main-color: #da4f4f;
+        }
+  
+        body{
+        
+            background: var(--bg-color);
+            color: var(--text-color);
+            /* border:2px solid var(--main-color); */
+          
+        }
+        .logo{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.3s ease;
+
+        }
+        span{
+            color: var(--main-color);
+        }
+        .logo:hover{
+            transform: scale(1.1);
+
+        }
+        img{
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            filter: grayscale(50%);
+            transition: filter 0.1s ease;
+
+    
+        }
+        img:hover{
+            filter: grayscale(0%);
+        }
+        .item{
+            width: 150px;
+            height: 187px;
+            margin: 20px;
+            border-radius: 5px;
+            border: 1px solid var(--main-color);
+            cursor: pointer;
+            color: white;
+            
+        }
+        .item:hover{
+            box-shadow: 0 0 5px #ef1616,
+                        0 0 20px #fe2e2e;
+         
+        }
+        .header{
+            margin: 10px;
+            text-align: center;
+            font-size: large;
+            font-weight: 500;
+        
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+        }
+        footer{
+            margin: 20px;
+            text-align: center;
+        }
+    
+       
+    </style>
+    <link rel="shortcut icon" href="Aslogo.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="logo">
+        <p>Salaar Part-1<span>  Ceasefire</span></p>
+    </div>
+    <div class="header">
+        <p>Unique <span> Frames </span>Of Salaar</p>
+    </div>
+    <div class="container">
+        <div id="item1" class="item"><img src="./Salaar/salaar1.jpeg" alt="images"></div>
+        <div id="item2" class="item"><img src="./Salaar/salaar2.jpeg" alt="images"></div>
+        <div id="item5" class="item"><img src="./Salaar/salaar3.jpg" alt="images"></div>
+        <div id="item8" class="item"><img src="./Salaar/salaar4.jpg" alt="images"></div>
+        <div id="item7" class="item"><img src="./Salaar/salaar5.jpg" alt="images"></div>
+        <div id="item4" class="item"><img src="./Salaar/salaar6.jpeg" alt="images"></div>
+        <div id="item3" class="item"><img src="./Salaar/salaar7.jpeg" alt="images"></div>
+        <div id="item12" class="item"><img src="./Salaar/salaar8.jpeg" alt="images"></div>
+        <div id="item6" class="item"><img src="./Salaar/salaar9.jpeg" alt="images"></div>
+        <div id="item9" class="item"><img src="./Salaar/salaar9.png" alt="images"></div>
+        <div id="item10" class="item"><img src="./Salaar/salaar10.png" alt="images"></div>
+        <div id="item11" class="item"><img src="./Salaar/salaar11.png" alt="images"></div>
+       
+    </div>
+    <footer>
+        Daily &#x1F525;Dose of <span>Salaar</span>
+        <br>
+        Created by - <span> &hearts; Aslam Sayyed </span>
+        <br>
+        &copy;All <span>rights</span> reserved 
+        
+    </footer>
+    
+</body>
+</html>
